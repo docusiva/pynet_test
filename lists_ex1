@@ -1,0 +1,13 @@
+#!/usr/bin/env python
+
+my_list = ["Ganguly", "Sachin", "Laxman", "Dravid", "Shewag"]
+
+my_list.append("Yuvraj");
+print(my_list);
+my_list.pop(2);
+print(my_list);
+print("Len of the list : {}".format(len(my_list)))
+my_list.sort()
+print(my_list)
+
+
